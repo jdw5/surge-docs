@@ -8,9 +8,9 @@ export default defineConfig({
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: 'Home', link: '/' },
-			{ text: 'Overview', link: '/markdown-examples' },
-			{ text: 'Components', link: '/markdown-examples' },
-			{ text: 'Services', link: '/markdown-examples' },
+			{ text: 'Overview', link: '/overview/getting-started' },
+			{ text: 'Components', link: '/components/accordion' },
+			{ text: 'Services', link: '/services/admin' },
 		],
 		
 		sidebar: [
@@ -21,7 +21,6 @@ export default defineConfig({
 					{ text: 'Getting Started', link: '/overview/getting-started' },
 					{ text: 'Installation', link: '/overview/installation' },
 					{ text: 'Theming', link: '/overview/theming' },
-					{ text: 'Packages', link: '/overview/packages' },
 					{ text: 'Developing Server', link: '/overview/server' },
 					{ text: 'Developing Client', link: '/overview/client' },
 				]
@@ -98,17 +97,23 @@ export default defineConfig({
 					{ text: 'Transition', link: '/components/transition' },
 					{ text: 'Typography', link: '/components/typography' },
 					{ text: 'Utility', link: '/components/utility' },
-
 				]
 			},
 			{
 				text: 'Provided Services',
 				collapsed: false,
 				items: [
+					{ text: 'Admin', link: '/services/admin' },
 					{ text: 'Charts', link: '/services/charts' },
 					{ text: 'Emails', link: '/services/emails' },
 					{ text: 'File Uploads', link: '/services/uploads' },
-					{ text: 'Payments', link: '/services/payments' },
+					{ text: 'Magic Links', link: '/services/magic-links' },
+					{ text: 'Payments', link: '/services/payments', collapsed: true, items: [
+						{ text: 'Stripe', link: '/services/payments/stripe' },
+						{ text: 'Paddle', link: '/services/payments/paddle' },
+						{ text: 'LemonSqueezy', link: '/services/payments/lemon-squeezy' },
+						{ text: 'AirWallex', link: '/services/payments/airwallex' },
+					]},
 					{ text: 'Sitemap and RSS', link: '/services/sitemap' },
 					{ text: 'Social Authentication', link: '/services/social-auth' },
 				]
@@ -124,12 +129,21 @@ export default defineConfig({
 					{ text: 'Websockets', link: '/more/websockets' },
 				]
 			},
+			{
+				text: 'Packages',
+				collapsed: false,
+				link: '/packages',
+				items: [
+					{ text: 'Assemble', link: '/packages/artisan-assemble' },
+					{ text: 'Charter', link: '/packages/charter' },
+					{ text: 'Vanguard', link: '/packages/vanguard' },
+				]
+			},
 
 			
-		],
-		
+		],		
 		socialLinks: [
-			{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+			{ icon: 'github', link: 'https://github.com/jdw5/vanguard' }
 		]
 	}
 })

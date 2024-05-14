@@ -1,0 +1,2 @@
+# Surge Documentation
+Documentation site for handling all aspects of the Surge boilerplate project. It additionally hosts the documentation for the Vanguard related packages. Intended solely for personal use.

@@ -1,3 +1,3 @@
 # Websockets
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+Websockets are not provided in the default configuration, but are simple enough to set-up with Laravel.

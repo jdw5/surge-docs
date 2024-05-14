@@ -1,3 +1,3 @@
 # Getting Started
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+Surge is a boilerplate written for the VILT stack - Vue, Inertia, Laravel and Tailwind.

@@ -1,3 +1,3 @@
 # Disclosure
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+The `Disclosure` component, also referred to as a `Collapsible`

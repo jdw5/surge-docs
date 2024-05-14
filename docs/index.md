@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Surge"
   text: "Documentation for the Surge boilerplate."
-  tagline: My great project tagline
+  tagline: Rapidly develop new webapps
   actions:
     - theme: brand
       text: Markdown Examples
