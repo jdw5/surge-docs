@@ -2,7 +2,7 @@
 
 Welcome to the **Surge documentation**.
 
-The project is a boilerplate using Laravel, Vue.js, Inertia.js and TailwindCSS. It includes Laravel Jetstream for authentication scaffolding, and uses Radix Vue components for the UI.
+The project is a boilerplate using Laravel, Vue.js, Inertia.js and TailwindCSS. It includes Laravel Jetstream for authentication scaffolding, and uses Radix Vue components for the UI. It is an opinionated setup, but is feature-complete and provides options for handling the vast majority of tasks needed in web development.
 
 ## Installation
 ### Clone repo
@@ -74,6 +74,21 @@ And compile the assets through hot module reloading using Vite.
 npm run dev
 ```
 
+### Unlink GitHub and Set Remote
+As the repository was cloned, it is linked to the original repository. To unlink it, remove the remote and set it to your own repository.
+
+```console
+git remote remove origin
+git remote add origin [YOUR-REPO]
+```
+
+Then push the changes to your repository from the root directory.
+
+```console
+git add .
+git commit -m "New project"
+git push -u origin main
+```
 
 
 ## Sail
