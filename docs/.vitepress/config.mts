@@ -137,6 +137,7 @@ export default defineConfig({
 					{ text: 'Assemble', link: '/packages/artisan-assemble' },
 					{ text: 'Charter', link: '/packages/charter' },
 					{ text: 'Vanguard', link: '/packages/vanguard' },
+					{ text: 'Vue Use', link: '/packages/vue-use' },
 				]
 			},
 
