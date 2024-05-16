@@ -1,17 +1,19 @@
 ---
 outline: deep
 ---
-# Alert
+# Vanguard
+The table component restructured for specific use with `Vanguard`.
 
 ## Import
 ```javascript
-import {  } from '@/Components/'
+import { Vanguard } from '@/Components/'
 ```
 
 ## Anatomy
 The anatomy of it is:
-```javascript
 
+```javascript
+<Vanguard :table />
 ```
 
 ## Component API
@@ -24,4 +26,3 @@ The anatomy of it is:
 | Model | Usage | Type |
 | ---- | ---- | ---- |
 | `modelValue` | High | `string\|string[]`<br>Control the value of the active items programmatically |
-

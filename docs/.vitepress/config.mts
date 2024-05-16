@@ -3,9 +3,15 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 	title: "Surge",
+	lastUpdated: true,
+	
 	description: "Documentation for the Surge boilerplate.",
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
+		search: {
+			provider: 'local'
+		},
+		outline: 'deep',
 		nav: [
 			{ text: 'Home', link: '/' },
 			{ text: 'Overview', link: '/overview/getting-started' },
@@ -37,6 +43,7 @@ export default defineConfig({
 					{ text: 'Breadcrumb', link: '/components/breadcrumb' },
 					{ text: 'Button', link: '/components/button' },
 					{ text: 'Calendar', link: '/components/calendar' },
+					{ text: 'Card', link: '/components/card' },
 					{ text: 'Carousel', link: '/components/carousel' },
 					{ text: 'Chart', link: '/components/chart' },
 					{ text: 'Chips', link: '/components/chips' },
@@ -97,6 +104,7 @@ export default defineConfig({
 					{ text: 'Transition', link: '/components/transition' },
 					{ text: 'Typography', link: '/components/typography' },
 					{ text: 'Utility', link: '/components/utility' },
+					{ text: 'Vanguard', link: '/components/vanguard' },
 				]
 			},
 			{

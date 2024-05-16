@@ -1,16 +1,28 @@
 ---
 outline: deep
 ---
-# Alert
+# Card
+A card component that displays content in a consistent way.
 
 ## Import
 ```javascript
-import {  } from '@/Components/'
+import { Card, CardContent, CardFooter, CardHeader, CardTitle} from '@/Components/Card'
 ```
 
 ## Anatomy
 The anatomy of it is:
 ```javascript
+<Card>
+    <CardHeader>
+        <CardTitle> Title </CardTitle>
+    </CardHeader>
+    <CardContent>
+        <p> Content </p>
+    </CardContent>
+    <CardFooter>
+        Footer
+    </CardFooter>
+</Card>
 
 ```
 
